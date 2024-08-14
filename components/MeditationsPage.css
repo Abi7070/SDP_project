@@ -1,0 +1,63 @@
+.remedy-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .header-section p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute cards evenly */
+    gap: 20px; /* Space between cards */
+    max-width: 1200px; /* Limit container width */
+    width: 100%;
+  }
+  
+  .card {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(50% - 10px); /* Two cards per row, accounting for the gap */
+    box-sizing: border-box; /* Include padding and border in width/height */
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover image area */
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  

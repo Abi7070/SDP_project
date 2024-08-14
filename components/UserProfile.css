@@ -1,0 +1,75 @@
+.profile-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black; /* Set background to black */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Set text color to white */
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold; /* Bold the text in the profile header */
+  color: #fff; /* Set text color to white */
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.profile-details {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold; /* Bold the text in the profile details */
+  color: #fff; /* Set text color to white */
+}
+
+.profile-links {
+  margin-bottom: 20px;
+}
+
+.profile-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-links li {
+  margin-bottom: 10px;
+}
+
+.profile-links a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold; /* Bold the text in the profile links */
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+.profile-actions {
+  text-align: center;
+}
+
+.profile-actions button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  font-weight: bold; /* Bold the text in the buttons */
+}
+
+.profile-actions button:hover {
+  background-color: #0056b3;
+}

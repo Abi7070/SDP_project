@@ -1,0 +1,54 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.form-page {
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-attachment: fixed;
+  background-image: url('https://img.freepik.com/free-vector/mental-health-wellness-concept-background-with-text-space_1017-53499.jpg?size=626&ext=jpg&ga=GA1.1.818974254.1722408833&semt=ais_hybrid');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures the background covers the entire viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 450px;
+  margin: 20px;
+  padding: 20px;
+  background-color: transparent; /* Transparent black background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff; /* White text color for the heading */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  color: #fff; /* White text color for the labels */
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #fff; /* White border color */
+  border-radius: 4px;
+  background-color: #333; /* Darker background color for input fields */
+  color: #fff; /* White text color for input fields */
+}

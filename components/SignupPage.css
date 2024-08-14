@@ -1,0 +1,86 @@
+/* Reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+/* Full height for html and body */
+html, body {
+  height: 100%;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Signup container with flexbox layout */
+.signup-container {
+  display: flex; /* Use flexbox layout */
+  height: 100vh; /* Full height of the viewport */
+  position: relative; /* Needed to position the image and form correctly */
+  background-image: url('https://images.pexels.com/photos/6707489/pexels-photo-6707489.jpeg?auto=compress&cs=tinysrgb&w=1600'); /* High-resolution image URL */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Create a parallax effect */
+}
+
+/* Styling for the form section */
+.form-section {
+  flex: 1; /* Take up equal space */
+  display: flex; /* Center the form horizontally and vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%; /* Full width for the form section */
+  position: relative; /* Ensure the form section is positioned relative to the container */
+  z-index: 1; /* Place the form above the background image */
+}
+
+/* Signup form styling */
+.signup-form {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for contrast */
+  padding: 20px; /* Padding inside the form */
+  border-radius: 8px; /* Rounded corners for the form */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect for the form */
+  width: 100%; /* Full width for form */
+  max-width: 400px; /* Max width for the form */
+}
+.signup-form h1, .signup-form h2, .signup-form h3 {
+  color: white; /* Set the heading color to white */
+  margin-bottom: 20px; /* Add spacing below the heading */
+  text-align: center; /* Center the heading text */
+}
+
+
+.signup-form label {
+  display: block; /* Block display for labels */
+  margin: 15px 0; /* Increased margin for spacing */
+  color: white; /* White text color for better contrast */
+}
+
+.signup-form input {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside input fields */
+  margin: 5px 0; /* Margin for spacing between fields */
+  border-radius: 5px; /* Rounded corners for input fields */
+  border: 1px solid #ccc; /* Border style for input fields */
+}
+
+.signup-form button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding inside button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners for button */
+  background-color: #0b0d10; /* Button background color */
+  color: rgb(160, 150, 150); /* Button text color */
+  font-size: 16px; /* Font size for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 20px; /* Space above the button */
+}
+
+.signup-form button:hover {
+  background-color: #0056b3; /* Darker button color on hover */
+}
+
+.signup-form p {
+  color: white; /* Change link text color to white for better contrast */
+}

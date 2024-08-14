@@ -1,0 +1,87 @@
+/* General styling for body and html */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the login page */
+.login-container {
+  display: flex;
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  background-image: url('https://images.pexels.com/photos/4473608/pexels-photo-4473608.jpeg?auto=compress&cs=tinysrgb&w=1600'); /* High-resolution image URL */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Ensure the image does not repeat */
+  background-attachment: fixed; /* Make the background fixed for a parallax effect */
+  overflow: hidden; /* Hide overflow to prevent scrollbars */
+  
+}
+
+/* Styling for the form section */
+.form-section {
+  position: relative;
+  z-index: 1; /* Ensure form is above image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Login form styling */
+.login-form {
+  background: rgba(0,0,0,0.7); /* White background with slight transparency */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-form h1, .login-form h2, .login-form h3 {
+  color: white; /* Set the heading color to white */
+  margin-bottom: 20px; /* Add spacing below the heading */
+  text-align: center; /* Center the heading text */
+}
+
+
+.login-form label {
+  display: block;
+  margin: 15px 0;
+  color: white
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-form p {
+  margin-top: 15px;
+  text-align: center;
+  color: white
+}
+

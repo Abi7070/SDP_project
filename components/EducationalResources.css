@@ -1,0 +1,70 @@
+/* src/pages/EducationalResources.css */
+
+.service-page {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.resource-section {
+  margin-bottom: 40px;
+}
+
+.resource-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 300px;
+}
+
+/* Card styling */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+/* Consistent image styling */
+.card img {
+  width: 100%;
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* Ensures images cover the entire area without stretching */
+  border-radius: 8px 8px 0 0;
+}
+
+/* Text styling */
+.card h3 {
+  margin-top: 10px;
+  color: black;
+}
+
+.card p {
+  color: black;
+  margin-bottom: 0;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

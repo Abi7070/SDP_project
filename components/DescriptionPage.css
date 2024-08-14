@@ -1,0 +1,131 @@
+/* Apply background to body */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure body takes full height */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Background Image */
+.description-container {
+  background-image: url('https://st4.depositphotos.com/9485312/21658/i/450/depositphotos_216587604-stock-photo-mental-health-word-cloud-wordcloud.jpg'); /* Background image link */
+  background-size: 90%; /* Slightly reduce the size of the image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Change text color for readability */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.content {
+  max-width: 1000px; /* Maximum width of the content */
+  width: 100%;
+  background-color: transparent; /* Semi-transparent background for contrast */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white; /* Ensure all text inside content is white */
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgba(20, 16, 16, 0.8); /* Slightly darker background for each section */
+  border-radius: 8px;
+  color: white; /* Ensure all text inside sections is white */
+}
+
+.section h1, .section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white; /* Ensure headings are white */
+}
+
+.section p, .section ul {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: white; /* Ensure paragraphs and lists are white */
+}
+
+.section ul {
+  padding-left: 20px;
+  color: white; /* Ensure list items are white */
+}
+
+.section li {
+  margin-bottom: 5px;
+  color: white; /* Ensure list items are white */
+}
+
+.quotation-box {
+  background-color: rgba(20, 16, 16, 0.8);
+  border-left: 5px solid #3498db;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: slideIn 1s forwards;
+  color: white; /* Ensure text inside quotation box is white */
+}
+
+.quotation-box blockquote {
+  margin: 0;
+  font-style: italic;
+  color: white; /* Ensure blockquote text is white */
+}
+
+.quotation-box blockquote span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
+  color: #3498db; /* Span color remains the same */
+}
+
+.description-container a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #3498db; /* Link color */
+  font-weight: bold;
+}
+
+.description-container a:hover {
+  color: #2980b9;
+}
+
+.form-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px; /* Space between links */
+  text-decoration: none;
+  color: #3498db; /* Link color */
+  font-weight: bold;
+}
+
+.form-link:hover {
+  color: #2980b9; /* Darker shade on hover */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

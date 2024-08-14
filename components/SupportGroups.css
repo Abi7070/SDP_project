@@ -1,0 +1,63 @@
+
+/* src/pages/SupportGroups.css */
+
+.service-page {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .resource-section {
+    margin-bottom: 40px;
+  }
+  
+  .resource-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,66 @@
+/* src/components/PaymentComp.css */
+
+.payment-comp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-color: #f5f5f5; /* Light grey background */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .payment-comp-wrapper {
+    width: 350px; /* Fixed width for the wrapper */
+    padding: 2rem; /* Padding around the content */
+    background-color: #ffffff; /* White background for the payment component */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-align: center; /* Center-align text */
+  }
+  
+  .payment-comp-header {
+    margin-bottom: 1.5rem; /* Space below header */
+    font-size: 1.8rem; /* Header font size */
+    font-weight: bold; /* Bold font weight */
+    color: #333333; /* Dark grey color for header */
+  }
+  
+  .payment-comp-qrcode {
+    margin-bottom: 1.5rem; /* Space below QR code */
+  }
+  
+  .payment-comp-info {
+    font-size: 1rem; /* Info text font size */
+    color: #666666; /* Grey color for informational text */
+  }
+  
+  /* QR scanner specific styles */
+  .qr-scanner {
+    margin-top: 20px; /* Space between QR code and scanner */
+    border: 2px dashed #3498db; /* Dashed border for scanner area */
+    padding: 10px; /* Padding within scanner area */
+    border-radius: 10px; /* Rounded corners for scanner area */
+  }
+  
+  .qr-scanner p {
+    margin-top: 10px; /* Space above scanned result text */
+    font-size: 1rem; /* Font size for scanned result */
+    color: #333; /* Dark grey color for scanned result */
+  }
+  
+  button {
+    background-color: #2980b9; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding inside button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Button font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  button:hover {
+    background-color: #1a6692; /* Darker button color on hover */
+  }
+  

@@ -1,0 +1,68 @@
+.therapists-page-container {
+    padding: 30px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.therapists-page-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.therapists-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.therapist-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.therapist-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #007bff;
+}
+
+.therapist-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.therapist-info h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.therapist-info p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.therapist-description {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #777;
+    text-align: center;
+    line-height: 1.5;
+}
